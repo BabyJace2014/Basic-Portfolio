@@ -2,15 +2,51 @@
 <html lang="en-us">
 
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
-    <script src="main.js"></script>
-</head>
+    <meta charset="UTF-8">
+    <title>Jeffrey's Contact Info</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head> 
 <body>
-    <header>Jeffrey Lempicki</header>
+    <header>
+        
+        <ul>
+        <h1>Jeffrey J. Lempicki</h1>
+
+        
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="#index">About</a></li>
+        </ul>
+    </header>
+
+    <div class="container">
+        
+        
+        <form action="action_page.php">
+        
+            <h2>Contact</h2>
+        
+       
+      
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name..">
+      
+          <label for="email">Email</label>
+          <input type="text" id="email" email="email" placeholder="example@gmail.com">
+      
+        
+          <label for="message">Message</label>
+          <textarea id="subject" name="subject" placeholder="Type your message here.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
     
+    <div class="footer">
+
+    </div>
 </body>
 </html>
